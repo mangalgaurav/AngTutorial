@@ -1,0 +1,185 @@
+@media (min-width: 980px) {
+        body .headerMain {
+    height:54px !important;
+}
+       .tileBox {
+        height:125px;
+        width:170px;
+        padding:20px;
+        display:inline-block;
+        margin-right:20px;
+        border:solid 1px #666;
+    }
+    .bodyofElements {
+        width: 1000px !important;
+        margin: auto;
+        padding-top: 20px;
+    }
+    .tileBox .pull-left {
+        float:right;
+    }
+    .tileBox .nameBox {
+        float:left;
+        width:70%;
+    }
+    .tileBox h4{
+        margin:0
+    }
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+    .navWidth {
+        width:1000px;
+        margin:auto;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position:static !important;
+    }
+    .bodyofElements {
+        width: 1000px !important;
+        margin:auto;
+        padding-top:20px;
+}
+    .tileBox {
+        height:125px;
+        width:170px;
+        padding:20px;
+        display:inline-block;
+        margin-right:20px;
+        border:solid 1px #666;
+    }
+    .tileBox .pull-left {
+        float:right;
+    }
+    .tileBox .nameBox {
+        float:left;
+        width:70%;
+    }
+    .tileBox h4{
+        margin:0
+    }
+}
+ .navbar-fixed-top, .navbar-fixed-bottom {
+        position:static !important;
+    }
+.btn-group {
+    vertical-align:top;
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+    body .headerMain {
+    height:54px !important;
+}
+    .navbar-fixed-top, .navbar-fixed-bottom{
+        position:static !important;
+    }
+    .tileBox {
+        height:40px;
+        padding:10px;
+        display:block;
+        border:solid 1px #666;
+    }
+    .tileBox .pull-left {
+        float:left;
+        margin-right:20px;
+    }
+    .tileBox .nameBox {
+        float:left;
+    }
+    .tileBox h4{
+        margin:0
+    }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+        body .headerMain {
+    height:54px !important;
+}
+       .tileBox {
+        height:40px;
+        padding:10px;
+        display:block;
+        border:solid 1px #666;
+    }
+       .tileBox .pull-left {
+        float:left;
+        margin-right:20px;
+    }
+    .tileBox .nameBox {
+        float:left;
+    }
+    .tileBox h4{
+        margin:0
+    }
+}
+
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+        body .headerMain {
+    height:54px !important;
+}
+        .tileBox {
+        height:40px;
+        padding:10px;
+        display:block;
+        border:solid 1px #666;
+    }
+        .tileBox .pull-left {
+        float:left;
+        margin-right:20px;
+    }
+    .tileBox .nameBox {
+        float:left;
+    }
+    .tileBox h4{
+        margin:0
+    }
+}
+body .headerMain {
+    background-image:none !important;
+    background:#616161 !important;
+    height:64px;
+}
+ body.navbar-inverse .navbar-inner {
+    background-image:none !important;
+    background:#616161 !important;
+}
+body .headerMain .nav li {
+    height:64px;
+    width:64px;
+    margin-right:5px;
+}
+
+body .headerMain .nav li:nth-child(1) {
+    background:url('../images/icon1.png') no-repeat center center;
+}
+body .headerMain .nav li:nth-child(2) {
+    background:url('../images/iconHome.png') no-repeat center center;
+}
+body .headerMain .nav li:nth-child(2) {
+    background:url('../images/iconbulding_hover.png') no-repeat center center;
+}
+body .headerMain .nav li:nth-child(3) {
+    background:url('../images/iconLocation.png') no-repeat center center;
+}
+body .headerMain .nav li:nth-child(1):hover {
+    background:#000000 url('../images/icon1.png') no-repeat center center;
+}
+body .headerMain .nav li:nth-child(2):hover {
+    background:#000000 url('../images/iconHome.png') no-repeat center center;
+}
+body .headerMain .nav li:nth-child(2):hover {
+    background:#000000 url('../images/iconbulding_hover.png') no-repeat center center;
+}
+body .headerMain .nav li:nth-child(3):hover {
+    background:#000000 url('../images/iconLocation.png') no-repeat center center;
+}
+.classFloatR {
+    float:right;
+}
+.classFloatR .media-body {
+    float:left;
+}

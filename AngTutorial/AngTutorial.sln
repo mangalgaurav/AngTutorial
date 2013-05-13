@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AngTutorial", "http://localhost/AngTutorial", "{D2EE8B96-301E-44E9-B4DF-6C253CEA3D4A}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/AngTutorial"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\AngTutorial\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\AngTutorial\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/AngTutorial"
+		Release.AspNetCompiler.PhysicalPath = "..\..\AngTutorial\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\AngTutorial\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\AngTutorial\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2EE8B96-301E-44E9-B4DF-6C253CEA3D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EE8B96-301E-44E9-B4DF-6C253CEA3D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
